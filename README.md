@@ -1,7 +1,5 @@
 # Concept-Aware Wasserstein Routing with Vision-Language Guidance for Few-Shot WSI Classification
 
-Official implementation of a **parameter-efficient multi-scale vision-language framework** for **Few-Shot Weakly Supervised Whole-Slide Image (WSI) Classification**.
-
 Our framework combines frozen pathology foundation models with:
 
 - **Semantic Wasserstein Routing (SWR)** using Unbalanced Optimal Transport (UOT)
@@ -66,38 +64,9 @@ export CUDA_VISIBLE_DEVICES=0
         └── ...
 ```
 
-or
-
-```text
-<wsi_root>/
-└── pyramid/
-    └── <slide_id>/
-        └── 5x/
-```
-
 ---
 
 ### High-Magnification Features (20×)
-
-```text
-<features_root>/
-└── <slide_id>/
-    └── 20x/
-        ├── feat1.pt
-        ├── feat2.pt
-        └── ...
-```
-
-or
-
-```text
-<features_root>/
-└── pyramid/
-    └── <slide_id>/
-        └── 20x/
-```
-
-or
 
 ```text
 <features_root>/
